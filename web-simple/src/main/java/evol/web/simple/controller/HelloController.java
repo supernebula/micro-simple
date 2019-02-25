@@ -2,11 +2,13 @@ package evol.web.simple.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class HelloController {
 
-    public String index(Model model){
-        return "hello/index";
-    }
+//    @RequestMapping("hello")
+//    public String index(Model model){
+//        return "hello/index";
+//    }
 }
